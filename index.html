@@ -5,22 +5,15 @@
 	<title>Practice</title>
 </head>
 	<body>
-	<form>
-		<label>Your name</label>
-		<input type="text">
-		<input type="submit">
-	</form>
-	
 		<script>
-			//ask the user for theri age
-			var age = parseInt(prompt{"Enter your age"));
-			//calculate the year they were born
-			var year = 2025 - age;
-			//display/alert the year they were born
-			alert("You were born in " +year);
-			
-			//alert again
-			alert("Goodbye");
+			//ask the user for their age
+			var age = parseInt(prompt("Enter your age"));
+				
+			if(age >= 18){
+				alert("You can buy alcohol");
+			}else{
+				alert("You cannot buy alcohol");
+			}
 		</script>
 	</body>
 </html>
